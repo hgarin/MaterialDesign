@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Material Design Lite</title>
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<link rel="stylesheet" href="css/material.min.css">
+
+</head>
+
+<body>
+<style>
+	body{
+		text-align: center;
+	}
+	.mdl-layout{
+		align-items:center;
+		justify-content:center;
+	}
+	.mdl-card{
+		max-width: 600px;
+	}
+	.mdl-card__media>img{
+		width: 100%;
+	}
+	.mdl-card__actions{
+		display:flex;
+		align-items: center;
+	}
+	
+</style>
+	<div class="mdl-layout mdl-js-layout mdl-color--grey-100">
+		<main class="mdl-layout__content">
+			<div class="mdl-card mdl-shadow--4dp">
+				<div class="mdl-card__media">
+					<img src="images/user.jpg">
+				</div>
+				<div class="mdl-card__title">
+					<h1 class="mdl-card__title-text">Material Design</h1>
+				</div>
+				<div class="mdl-card__supporting-text">
+					<p>Ejemplo texto de cards</p>
+				</div>
+				<div class="mdl-card__actions mdl-card--border">
+					<a href="#" class="mdl-button mdl-js-button mdl-js--ripple-effect mdl-button--colored">
+						Leer mas
+					</a>
+					<div class="mdl-layout-spacer"></div>
+					<button class="mdl-button mdl-button--icon mdl-button--colored">
+						<i class="material-icons">share</i>
+					</button>
+				</div>
+			</div>
+			
+		</main>
+	</div>
+	
+	<script src="js/material.min.js"></script>
+</body>
+</html>
